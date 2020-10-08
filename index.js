@@ -4,6 +4,12 @@ console.log(randommNumber);
 
 document.querySelector('#check_it').addEventListener('click', checkNumber);
 
+document.querySelector("#nr_game").addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    checkNumber();
+  }
+});
+
 function checkNumber() {
   let userInput = document.querySelector('#nr_game');
   let answer = document.querySelector('#answer');
