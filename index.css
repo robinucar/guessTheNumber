@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  margin: 10;
+  background: rgb(255,229,204);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wstep {
+  text-align: center;
+  color: #000;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
