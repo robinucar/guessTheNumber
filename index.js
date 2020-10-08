@@ -27,4 +27,7 @@ function checkNumber() {
   } else if (isNaN(userInput.value)) {
     answer.innerText = 'Your guess is not a number!';
   }
+
+  userInput.focus();
+  userInput.value = "";
 }
